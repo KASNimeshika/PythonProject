@@ -1,4 +1,4 @@
-# Hotel Management System
+# 🏨Hotel Management System
 
 This is a **Python-based Hotel Management System** built using **Tkinter** for the graphical user interface (GUI) and **MySQL** for database integration. The system is designed to streamline the management of hotel operations such as customer registration, room booking, reservations, and billing. It provides a user-friendly platform for hotel staff to manage daily activities efficiently.
 
@@ -37,8 +37,4 @@ This is a **Python-based Hotel Management System** built using **Tkinter** for t
    python hotel.py
    ```
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
-For any issues, please contact [your-email@example.com].
