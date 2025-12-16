@@ -1,100 +1,44 @@
+# Hotel Management System
 
-Hotel Management System
+This is a **Python-based Hotel Management System** built using **Tkinter** for the graphical user interface (GUI) and **MySQL** for database integration. The system is designed to streamline the management of hotel operations such as customer registration, room booking, reservations, and billing. It provides a user-friendly platform for hotel staff to manage daily activities efficiently.
 
-A brief description of what this project does and who it's for
+## Features
+- **Customer Registration and Management**: Add, update, delete, and search customer information.
+- **Room Booking and Reservation Management**: Manage room availability, booking status, and room allocation.
+- **Billing and Payments**: Generate and manage customer bills.
+- **User Authentication**: Secure login system for hotel staff.
+- **Responsive User Interface**: Built using Tkinter for an intuitive experience.
 
+## Technologies Used
+- **Python**: Programming language used for backend logic.
+- **Tkinter**: GUI library for building the user interface.
+- **MySQL**: Database management system to store customer, room, and booking data.
+- **Pillow**: Image processing library for handling icons and images in the UI.
 
-## Acknowledgements
+## Installation and Setup Instructions
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/hotel-management-system.git
+   ```
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+2. **Install dependencies**:
+   Make sure you have Python installed. Then, install the necessary libraries:
+   ```bash
+   pip install pillow mysql-connector-python
+   ```
 
+3. **Set up MySQL database**:
+   - Create a MySQL database and configure it to store hotel data.
+   - Run the provided SQL schema to create necessary tables like customers, rooms, and bookings.
 
-## Used By
+4. **Run the application**:
+   To start the system, run the main script:
+   ```bash
+   python hotel.py
+   ```
 
-This project is used by the following companies:
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- Company 1
-- Company 2
-
-
-## Support
-
-For support, email fake@fake.com or join our Slack channel.
-
-
-## Appendix
-
-Any additional information goes here
-
-
-## Tech Stack
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
-
-
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## Demo
-
-Insert gif or link to demo
-
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-
-```bash
-  pip install -r requirements.txt
-```
+## Contact
+For any issues, please contact [your-email@example.com].
